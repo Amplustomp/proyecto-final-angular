@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { PorBancosComponent } from './listador/listar/por-bancos/por-bancos.component';
-import { PorMotoComponent } from './listador/listar/por-moto/por-moto.component';
-import { PorPokemonComponent } from './listador/listar/por-pokemon/por-pokemon.component';
+import { PorBancosComponent } from './listador/por-bancos/por-bancos.component';
+import { PorMotoComponent } from './listador/por-moto/por-moto.component';
+import { PorPokemonComponent } from './listador/por-pokemon/por-pokemon.component';
 
-const misRoutesHijas:Routes=[ 
+
+const misRoutesHijas:Routes=[
           { path:'',
             children:[
               {path:'listar-moto'     , component:PorMotoComponent},

@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { ListarModule } from './listador/listar/listar.module';
+import { ListarModule } from './listador/listar.module';
 import { AppRoutingListarModule } from './listar.routing';
 
 @NgModule({

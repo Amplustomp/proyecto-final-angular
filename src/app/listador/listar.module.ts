@@ -12,6 +12,7 @@ import { AppRoutingListarModule } from 'src/app/listar.routing';
   declarations: [
     MotoTablaComponent,
     BancoInputComponent,
+    PageListarComponent
 
   ],
   imports: [
