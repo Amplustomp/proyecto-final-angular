@@ -1,11 +1,13 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
-  selector: 'app-banco-input',
-  templateUrl: './banco-input.component.html',
-  styleUrls: ['./banco-input.component.css']
+  selector: 'app-moto-input',
+  templateUrl: './moto-input.component.html',
+  styleUrls: ['./moto-input.component.css']
 })
-export class BancoInputComponent implements OnInit {
+export class MotoInputComponent implements
+
+OnInit {
 
   constructor() { }
   // Ahora si necesitaremos el ngOnInit
@@ -16,6 +18,7 @@ export class BancoInputComponent implements OnInit {
   // placeHolderVar, recibido como parámetro desde el padre
   @Input() placeHolderVar:string = ""
   //Método que se ejecutará cuando presione Enter
+
   //Envio un evento al padre con emitter
   @Output() onEnter: EventEmitter < string > = new EventEmitter()
 

@@ -1,11 +1,11 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
-  selector: 'app-banco-input',
-  templateUrl: './banco-input.component.html',
-  styleUrls: ['./banco-input.component.css']
+  selector: 'app-pokemon-input',
+  templateUrl: './pokemon-input.component.html',
+  styleUrls: ['./pokemon-input.component.css']
 })
-export class BancoInputComponent implements OnInit {
+export class PokemonInputComponent implements OnInit {
 
   constructor() { }
   // Ahora si necesitaremos el ngOnInit
@@ -29,6 +29,5 @@ export class BancoInputComponent implements OnInit {
     const valor = tecla.target.value
     console.log("PInput==,teclaPresionada ",valor)
   }
-
 
 }

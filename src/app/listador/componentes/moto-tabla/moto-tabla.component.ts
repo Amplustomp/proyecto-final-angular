@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { IMoto } from '../moto.interface';
 
 @Component({
   selector: 'app-moto-tabla',
@@ -11,5 +12,8 @@ export class MotoTablaComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+    // campo de entrada del Arreglo Paises
+    @Input() motos_entrada:IMoto[]=[]
 
 }
