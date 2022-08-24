@@ -1,0 +1,28 @@
+{
+    "motos": [
+        {
+            "Patente": "SK498",
+            "Color": "Negro",
+            "Nro. Chasis": "124-43-231123",
+            "Velocidad Maxima": "180"
+        },
+        {
+            "Patente": "MV450",
+            "Color": "Rojo",
+            "Nro. Chasis": "891-12-304598",
+            "Velocidad Maxima": "100"
+        },
+        {
+            "Patente": "SC845",
+            "Color": "Negro",
+            "Nro. Chasis": "783-56-234978",
+            "Velocidad Maxima": "250"
+        },
+        {
+            "Patente": "RX239",
+            "Color": "Azul",
+            "Nro. Chasis": "238-27-345879",
+            "Velocidad Maxima": "180"
+        }
+    ]
+}
