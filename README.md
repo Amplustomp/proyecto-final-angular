@@ -25,5 +25,5 @@ json-server --watch db.json --port 3000
 4. VOLVER A LA RAIZ y REALIZAR EL SIGUIENTE COMANDO:
 
 ```PowerShell
-ng serve -O
+ng serve -o
 ```
