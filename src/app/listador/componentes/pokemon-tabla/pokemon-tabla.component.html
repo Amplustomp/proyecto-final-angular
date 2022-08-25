@@ -16,6 +16,7 @@
           <!--Imagen del pais-->
           <td>{{pokemon.name.english}}</td>
           <td>{{pokemon.type}}</td>
+
       </tr>
   </tbody>
 </table>
@@ -25,14 +26,8 @@
   *ngFor="let pokemon of pokemon_entrada"
   >
       <div class="card">
-          <img [src]=""
-               [alt]=""
-               class="pokemon-img-top"
-               >
-          <div class="card-body">
-              <p class="card-text">
-                  {{pokemon.name.english}}
-              </p>
+          <!-- <pre>assets/images/{{ pokemon.id | number: '3.' }}.png</pre> -->
+          <img [src]="'assets/images/'+ pokemon.id +'.png'" class="card-img-top"/>
           </div>
       </div>
   </div>

@@ -41,6 +41,10 @@ buscarEmit(stBuscar:any){
         // Guardmos la respuesta en el arreglo paises
         // El cual se desplegará en pantalla
         this.bancos=bancos
+        bancos.map(banco=>{
+          console.log("Banco",banco)
+          this.servicio.sucursales = banco.sucursales
+        })
       },
     complete: () => { console.log("complete") }, // completeHandler
     error: (error) => { console.log("Error")
@@ -50,6 +54,7 @@ buscarEmit(stBuscar:any){
                   this.bancos=[]
    },    // errorHandler
    });
+
 }
 // Método que se ejecutará cuando se
 // produsca  onDebounce en el componente input

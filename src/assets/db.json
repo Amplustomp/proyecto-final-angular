@@ -29,34 +29,34 @@
         {
             "nombre": "Banco de Chile",
             "direccion": "Av. Providencia 1234",
-            "telefono": "123456789",
+            "telefono": "123321123",
             "sucursales": [
                 {
                     "nombre": "Providencia",
                     "direccion": "Av. Providencia 1234",
-                    "telefono": "123456789"
+                    "telefono": "231289371"
                 },
                 {
                     "nombre": "Las Condes",
                     "direccion": "Av. Las Condes 1234",
-                    "telefono": "123456789"
+                    "telefono": "893457893"
                 }
             ]
         },
         {
             "nombre": "Banco Santander",
             "direccion": "Av. Apoquindo 1234",
-            "telefono": "123456789",
+            "telefono": "238476237",
             "sucursales": [
                 {
-                    "nombre": "Providencia",
-                    "direccion": "Av. Providencia 1234",
-                    "telefono": "123456789"
+                    "nombre": "Maipu",
+                    "direccion": "Av. Pajaritos 1234",
+                    "telefono": "345897345"
                 },
                 {
-                    "nombre": "Las Condes",
-                    "direccion": "Av. Las Condes 1234",
-                    "telefono": "123456789"
+                    "nombre": "Cerrillos",
+                    "direccion": "Av. Lo Errazuriz 1234",
+                    "telefono": "435872348"
                 }
             ]
         }

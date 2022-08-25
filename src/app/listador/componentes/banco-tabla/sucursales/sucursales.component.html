@@ -1,4 +1,5 @@
-<!-- <p>banco-tabla works!</p> -->
+<!-- <p>sucursales works!</p> -->
+
 
 <table class="table table-hover">
   <thead>
@@ -7,22 +8,22 @@
       <th>Nombre</th>
       <th>Direccion</th>
       <th>Teléfono</th>
-      <th>Sucursales</th>
       <th></th>
   </tr>
 </thead>
   <tbody>
+    <!-- <pre>{{sucursales_entrada | json}}</pre> -->
       <!--Taba que permite desplegar el arreglo de paises-->
-      <tr *ngFor="let banco of bancos_entrada;let i=index"
+      <tr *ngFor="let sucursal of sucursales_entrada;let i=index"
       class="animate__animated animate__fadeIn animate__faster"
       >
           <td>{{i+1}}</td>
           <!--Imagen del pais-->
-          <td>{{banco.nombre}} </td>
-          <td>{{banco.direccion}} </td>
-          <td>{{banco.telefono| number}}</td>
-          <td>
-              <button class="btn btn-primary" (click)="irSucursales()">Ir Sucursales</button></td>
+          <td>{{sucursal.nombre}} </td>
+          <td>{{sucursal.direccion}} </td>
+          <td>{{sucursal.telefono}}</td>
       </tr>
   </tbody>
 </table>
+
+  <button class="btn btn-success" (click)="Volver()">Volver</button>

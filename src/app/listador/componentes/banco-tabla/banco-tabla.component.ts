@@ -1,4 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { ListarService } from '../../services/listar.service';
 import { IBanco } from '../banco.interface';
 
 @Component({
@@ -8,11 +10,18 @@ import { IBanco } from '../banco.interface';
 })
 export class BancoTablaComponent implements OnInit {
 
-  constructor() { }
-  // Ahora si necesitaremos el ngOnInit
+  @Input() bancos_entrada:IBanco[]=[]
+
+  constructor(private router:Router) { }
+
   ngOnInit(): void {
+
   }
 
-  @Input() bancos_entrada:IBanco[]=[]
+   irSucursales(){
+    this.router.navigate(['listar-sucursales'])
+
+  }
+
 
 }

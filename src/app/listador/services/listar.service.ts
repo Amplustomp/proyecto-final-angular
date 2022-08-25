@@ -1,7 +1,7 @@
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { IBanco } from '../componentes/banco.interface';
+import { IBanco, Surcursal } from '../componentes/banco.interface';
 import { IMoto } from '../componentes/moto.interface';
 import { IPokemon } from '../componentes/pokemon.interface';
 
@@ -9,6 +9,8 @@ import { IPokemon } from '../componentes/pokemon.interface';
   providedIn: 'root'
 })
 export class ListarService {
+
+  sucursales:any
 
   constructor(private http:HttpClient) { }
 
@@ -69,4 +71,6 @@ export class ListarService {
           // Visitamos la url, y eviamos los parámetros
           return this.http.get<IPokemon[]>(stUrl, { params: this.httpParamsPokemon })
       }
+
+
 }

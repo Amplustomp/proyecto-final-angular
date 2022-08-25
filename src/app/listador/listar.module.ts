@@ -14,6 +14,7 @@ import { MotoInputComponent } from './componentes/moto-input/moto-input.componen
 import { PokemonInputComponent } from './componentes/pokemon-input/pokemon-input.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { SucursalesComponent } from './componentes/banco-tabla/sucursales/sucursales.component';
 
 
 
@@ -29,7 +30,8 @@ import { HttpClientModule } from '@angular/common/http';
     PokemonTablaComponent,
     BancoTablaComponent,
     MotoInputComponent,
-    PokemonInputComponent
+    PokemonInputComponent,
+    SucursalesComponent
   ],
   imports: [
     CommonModule,

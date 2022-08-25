@@ -2,7 +2,7 @@ export interface IBanco {
   nombre:        string;
   direccion:          string;
   telefono:     string;
-  sucursales:     Surcursal[];
+  sucursales:     Surcursal;
 }
 
 export interface Surcursal {
