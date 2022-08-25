@@ -20,7 +20,7 @@ proyecto-final-angular\src\assets
 json-server --watch db.json --port 3000
 `
 
-##### Si el comando falla, antes realizar: npm install -g json-server 
+#### Si el comando falla, antes realizar: npm install -g json-server 
 
 4. VOLVER A LA RAIZ y REALIZAR EL SIGUIENTE COMANDO:
 
