@@ -17,6 +17,7 @@ proyecto-final-angular\src\assets
 3. CORRER EL SIGUIENTE COMANDO:
 
 `code
+npm install -g json-server 
 json-server --watch db.json --port 3000
 `
 
