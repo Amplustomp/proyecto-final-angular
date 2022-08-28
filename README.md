@@ -8,22 +8,8 @@
 npm install 
 ```
 
-2. DIRIGIRSE A LA CARPETA:
-
-```
-proyecto-final-angular\src\assets
-```
-
-3. CORRER EL SIGUIENTE COMANDO:
+2. REALIZAR EL SIGUIENTE COMANDO:
 
 ```PowerShell
-json-server --watch db.json --port 3000
-```
-
-#### Si el comando falla, antes realizar: npm install -g json-server 
-
-4. VOLVER A LA RAIZ y REALIZAR EL SIGUIENTE COMANDO:
-
-```PowerShell
-ng serve -o
+npm run
 ```
