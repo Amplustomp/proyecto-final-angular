@@ -11,5 +11,5 @@ npm install
 2. REALIZAR EL SIGUIENTE COMANDO:
 
 ```PowerShell
-npm run
+npm start
 ```
